@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: #061427;
+  color: #f8fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#app canvas {
+  width: min(100vw, 1400px);
+  height: auto;
+  max-height: 100vh;
+  outline: none;
+}
